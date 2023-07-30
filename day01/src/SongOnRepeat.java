@@ -16,6 +16,6 @@ public class SongOnRepeat {
         }
       }
     }
-    System.out.println("Playing next song!");
+    System.out.println("Playing next favorite song!");
   }
 }
