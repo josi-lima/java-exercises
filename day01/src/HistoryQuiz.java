@@ -18,13 +18,12 @@ public class HistoryQuiz {
       System.out.println(instruction);
       
       // Have the user input an answer
-      String answer = userInput.next();
+      String answer = userInput.next().toLowerCase();
 
       // then depending on the answer of the user print out a message
       if ("c".equals(answer)) {
         System.out.println("Correct! You're a history pro! It was a long period indeed.");
-      } 
-      else if ("a".equals(answer) || "b".equals(answer)) {
+      } else if ("a".equals(answer) || "b".equals(answer)) {
         System.out.println("Incorrect! The correct answer is C. Keep working on history facts!");
       } else {
         System.out.println("Please, enter a valid answer next time.");
