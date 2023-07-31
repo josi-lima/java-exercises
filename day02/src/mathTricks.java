@@ -1,16 +1,16 @@
 public class mathTricks {
 
-  public static double checkPow (double a, double b) {
+  public static double checkPow(double a, double b) {
     double exponent = Math.pow(a, b);
     return exponent;   
   }
 
-  public static int checkMax (int a, int b) {
+  public static int checkMax(int a, int b) {
     int max = Math.max(a, b);
     return max;  
   }
 
-  public static int checkMin (int a, int b) {
+  public static int checkMin(int a, int b) {
     int min = Math.min(a, b);
     return min;  
   }
