@@ -1,4 +1,4 @@
-public class mealPrice {
+public class MealPrice {
 
   public static double calculateMealPrice(int numberOfPeople, double listedPrice, double tipRate, double taxRate) {
     double tip = tipRate * listedPrice / 100;

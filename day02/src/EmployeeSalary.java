@@ -1,4 +1,4 @@
-public class employeeSalary {
+public class EmployeeSalary {
 
   public static double calculateYearlySalary(double weeklyHours, double hourlyPay, double daysOff, int numOfWeeks) {
 

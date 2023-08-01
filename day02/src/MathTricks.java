@@ -1,4 +1,4 @@
-public class mathTricks {
+public class MathTricks {
 
   public static double checkPow(double a, double b) {
     double exponent = Math.pow(a, b);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class printElements {
+public class PrintElements {
     public static void main(String args[]) {    
       // Create a new scanner object
       Scanner scan = new Scanner(System.in); 
