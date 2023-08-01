@@ -47,5 +47,29 @@ public class CodingChallenges_01 {
         userInput.close();
 
         // ==================================================================
-    }
+
+        // 🌱 5. Coding Challenge: Calculate the sum of numbers from 1 to 10.
+
+        int sum = 0;
+
+        for (int index = 1; index <= 10; index += 1) {
+            sum += index;
+        }
+        System.out.println("The sum of numbers from 1 to 10 is: " + sum + ".");
+
+        // ==================================================================
+
+        // 🌱 6. Coding Challenge: Calculate 10!
+
+        int factor = 1;
+
+        for (int index = 1; index <= 10; index += 1) {
+            factor *= index;
+        }
+        System.out.println("The result of 10! is: " + factor + ".");
+
+        // ==================================================================
+
+     }
 }
+
