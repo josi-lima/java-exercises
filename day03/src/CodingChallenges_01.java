@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class CodingChallenges_01 {
     public static void main(String[] args) {
@@ -35,16 +35,16 @@ public class CodingChallenges_01 {
 
         // 🌱 4. Coding Challenge: Print a dynamic multiplication table with numbers from 1 to 10.
 
-        // Scanner userInput = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in);
 
-        // System.out.println("Please, enter a number from 1 to 10: ");
-        // int num = userInput.nextInt();
+        System.out.println("Please, enter a number from 1 to 10: ");
+        int num = userInput.nextInt();
 
-        // for (int index = 1; index <= 10; index += 1) {
-        //     System.out.println(num + "x" + index + " = " + (num * index));
-        // }
+        for (int index = 1; index <= 10; index += 1) {
+            System.out.println(num + "x" + index + " = " + (num * index));
+        }
 
-        // userInput.close();
+        userInput.close();
 
         // ==================================================================
 
