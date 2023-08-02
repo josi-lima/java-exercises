@@ -16,6 +16,6 @@ public class ChallengeSenac_06 {
 
   public static void main(String[] args) {
     int result = sumNaturalNumbers(2, 4);
-    System.out.println("The sum of the given natural numbers is: " + result);
+    System.out.println("The sum of the given natural numbers is: " + result + ".");
   }
 }
