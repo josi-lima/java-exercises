@@ -4,7 +4,7 @@ public class ChallengeSenac_06 {
   naturais pares, a partir de um número de início e fim, informados pela
   pessoa usuária. */
 
-  public static int sumNaturalNumbers(int startNum, int finalNum) {
+  public static int sumEvenNumbers(int startNum, int finalNum) {
 
     int sum = 0;
     
@@ -15,7 +15,7 @@ public class ChallengeSenac_06 {
   }
 
   public static void main(String[] args) {
-    int result = sumNaturalNumbers(2, 8);
-    System.out.println("The sum of the given natural numbers is: " + result + ".");
+    int result = sumEvenNumbers(2, 8);
+    System.out.println("The sum of the given even numbers is: " + result + ".");
   }
 }
