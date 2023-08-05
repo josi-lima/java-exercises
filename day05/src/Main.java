@@ -24,6 +24,5 @@ public class Main {
 
       // height = non-static instance variable
       System.out.println("Height of triangle B: " + triangleB.height);
-
   }
 }
