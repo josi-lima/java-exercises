@@ -7,10 +7,15 @@ public class Main {
 
     int gradYearStudentA = studentA.incrementGraduationYear();
 
-    System.out.println("Has the student failed a period? " + studentA.fail + "." + " Expected year of graduation for " + studentA.firstName + " " + studentA.lastName + " is " + gradYearStudentA + ".");
-
+    System.out.println("Has the student failed a period? " + studentA.fail + "." + "\nExpected year of graduation for " + studentA.firstName + " " + studentA.lastName + " is " + gradYearStudentA + ".");
+    // Has the student failed a period? false. 
+    // Expected year of graduation for Amy Sulivan is 2028.
+    
     int gradYearStudentB = studentB.incrementGraduationYear();
-
-    System.out.println("Has the student failed a period? " + studentB.fail + "." + " Expected year of graduation for " + studentB.firstName + " " + studentB.lastName + " is " + gradYearStudentB + ".");
+    
+    System.out.println("Has the student failed a period? " + studentB.fail + "." + "\nExpected year of graduation for " + studentB.firstName + " " + studentB.lastName + " is " + gradYearStudentB + ".");
+    // Has the student failed a period? true. 
+    // Expected year of graduation for Oliver Matzubara is 2026.
   }
 }
+

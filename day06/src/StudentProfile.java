@@ -19,6 +19,7 @@ public class StudentProfile {
         this.major = major;
     }
 
+    // method to add one extra year to graduate, in case the student has failed a class
     public int incrementGraduationYear() {
       int yearPlus = this.expectGraduationYear;
       if (this.fail) { yearPlus += 1; }
