@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Cores {
+public class Colors {
 
   public static void main(String[] args) {
     ArrayList<String> lista = new ArrayList<>();
@@ -12,7 +12,6 @@ public class Cores {
     lista.add("CINZA"); 
 
     lista.remove("VERMELHO");
-
     System.out.println("Lista após exclusão " + lista);
     // Lista após exclusão [VERDE, AZUL, AMARELO, CINZA]
 
